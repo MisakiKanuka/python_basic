@@ -41,3 +41,15 @@ def dice():
 
 
 dice()
+
+# A-11
+# 小数点第2位まで表示
+# BMI＝ 体重kg ÷ (身長m)2
+# 適正体重＝ (身長m)2 ×22
+
+weight = float(input("体重を入力してください(kg): "))
+height = float(input("身長を入力してください(m): "))
+
+bmi = round(weight / (height * height), 2)  # BMI＝ 体重kg ÷ (身長m)2
+
+print("あなたのBMIは" + str(bmi) + "です。")
