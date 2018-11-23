@@ -13,5 +13,9 @@ print(members[0], members[2])
 print("Name:" + kazuma_info[1] + kazuma_info[0] + ",Age:" + str(kazuma_info[2]))  #A-5
 
 odd_numbers = [1, 3, 7, 9]  # A-6
-for number in odd_numbers:
-    print(number)
+for number_1 in odd_numbers:
+    print(number_1)
+
+even_numbers = [2, 4, 6, 8]  # A-7
+for numbers_2 in even_numbers:
+    print(numbers_2 * 2)
