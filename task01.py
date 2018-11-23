@@ -19,3 +19,11 @@ for number_1 in odd_numbers:
 even_numbers = [2, 4, 6, 8]  # A-7
 for numbers_2 in even_numbers:
     print(numbers_2 * 2)
+
+users_info = [["Kazuma", 35], ["Tom", 57], ["Bob", 77]]  # A-8
+for users_list in users_info:
+    print("Name: " + users_list[0] + ", Age: " + str(users_list[1]))
+# こうなれば良い
+# "Name: Kzuma, Age: 35"
+# "Name: Tom, Age: 57"
+# "Name: Bob, Age: 77"
