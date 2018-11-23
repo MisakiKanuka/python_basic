@@ -32,3 +32,11 @@ kazuma_info = {"first_name": "Kazuma", "family_name": "Takahashi", "age": 35}  #
 print(kazuma_info["first_name"])  # "Kazuma"
 print(kazuma_info["family_name"])  # "Takahashi"
 print(kazuma_info["age"])  # 35
+
+import random  # A-10
+
+
+def dice(self, random_number):
+    self.random_number = random.randint(1, 6)  # 1〜6の整数をランダムに出力
+
+    print(self.random_number)
