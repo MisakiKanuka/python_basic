@@ -36,7 +36,8 @@ print(kazuma_info["age"])  # 35
 import random  # A-10
 
 
-def dice(self, random_number):
-    self.random_number = random.randint(1, 6)  # 1〜6の整数をランダムに出力
+def dice():
+    print(random.choice([1, 2, 3, 4, 5, 6]))  # 1〜6の整数をランダムに出力
 
-    print(self.random_number)
+
+dice()
